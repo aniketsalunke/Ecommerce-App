@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 14px;}
+
+    .nav-content {
+      display: none;
+    }
+
+    .navbar {
+      width: 95%;
+    }
+
+    .navbar-nav {
+      text-align: center;
+    }
+  }

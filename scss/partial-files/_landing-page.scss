@@ -1,0 +1,18 @@
+.mr-sm-2 {
+    border: none;
+    border-bottom: 1px solid $gold-color;
+    margin: 0 10px;
+}
+
+.card-m {
+    width: 25%;
+    display: inline-block;
+    margin: 15px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 8px;
+    position: absolute;
+    margin-top: 55px !important;
+  }

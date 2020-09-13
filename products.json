@@ -1,0 +1,123 @@
+{
+	"products": [
+		{
+			"id": "1",
+			"img": "coombes.jpg",
+			"name": "Coombes",
+			"color": "Gray",
+			"category": "Lounge",
+			"description": "The most common types of couches are the two-seater, sometimes referred to as a loveseat, designed for seating two people, and the sofa, which has two or more cushion seats. A sectional sofa, often just referred to as a sectional, is formed from multiple sections (typically two, three, and four) and usually includes at least two pieces which join at an angle of 90 degrees or slightly greater, used to wrap around walls or other furniture.",
+			"price": "$ 1,500",
+			"rating": "4"
+		},
+		{
+			"id": "2",
+			"img": "nice-table.jpg",
+			"name": "Keeve Set",
+			"color": "Gray",
+			"category": "Table & Chairs",
+			"description": "One of the basic pieces of furniture, a chair is a type of seat. Its primary features are two pieces of a durable material, attached as back and seat to one another at a 90° or slightly greater angle, with usually the four corners of the horizontal seat attached in turn to four legs—or other parts of the seat's underside attached to three legs or to a shaft about which a four-arm turnstile on rollers can turn—strong enough to support the weight of a person.",
+			"price": "$ 2,500",
+			"rating": "4.5"
+		},
+		{
+			"id": "3",
+			"img": "shahi-sofa.jpg",
+			"name": "Nille",
+			"color": "Red",
+			"category": "Lounge",
+			"description": "The most common types of couches are the two-seater, sometimes referred to as a loveseat, designed for seating two people, and the sofa, which has two or more cushion seats. A sectional sofa, often just referred to as a sectional, is formed from multiple sections (typically two, three, and four) and usually includes at least two pieces which join at an angle of 90 degrees or slightly greater, used to wrap around walls or other furniture.",
+			"price": "$ 20,500",
+			"rating": "3.5"
+		},
+		{
+			"id": "4",
+			"img": "money-plant.jpg",
+			"name": "Money Plant ",
+			"color": "White",
+			"category": "Plants",
+			"description": "Plants are mainly multicellular organisms, predominantly photosynthetic eukaryotes of the kingdom Plantae. Historically, plants were treated as one of two kingdoms including all living things that were not animals, and all algae and fungi were treated as plants. However, all current definitions of Plantae exclude the fungi and some algae, as well as the prokaryotes (the archaea and bacteria). By one definition, plants form the clade Viridiplantae.",
+			"price": "$ 3,500",
+			"rating": "3"
+		},
+		{
+			"id": "5",
+			"img": "sofa-set.jpg",
+			"name": "Kappu",
+			"color": "Green",
+			"category": "Lounge",
+			"description": "The most common types of couches are the two-seater, sometimes referred to as a loveseat, designed for seating two people, and the sofa, which has two or more cushion seats. A sectional sofa, often just referred to as a sectional, is formed from multiple sections (typically two, three, and four) and usually includes at least two pieces which join at an angle of 90 degrees or slightly greater, used to wrap around walls or other furniture.",
+			"price": "$ 4,500",
+			"rating": "5"
+		},
+		{
+			"id": "6",
+			"img": "plants.jpg",
+			"name": "Penemille",
+			"color": "Green",
+			"category": "Plants",
+			"description": "Plants are mainly multicellular organisms, predominantly photosynthetic eukaryotes of the kingdom Plantae. Historically, plants were treated as one of two kingdoms including all living things that were not animals, and all algae and fungi were treated as plants. However, all current definitions of Plantae exclude the fungi and some algae, as well as the prokaryotes (the archaea and bacteria). By one definition, plants form the clade Viridiplantae.",
+			"price": "$ 1,500",
+			"rating": "2.2"
+		},
+		{
+			"id": "7",
+			"img": "small-table.jpg",
+			"name": "Chair",
+			"color": "Red",
+			"category": "Table & Chairs",
+			"description": "One of the basic pieces of furniture, a chair is a type of seat. Its primary features are two pieces of a durable material, attached as back and seat to one another at a 90° or slightly greater angle, with usually the four corners of the horizontal seat attached in turn to four legs—or other parts of the seat's underside attached to three legs or to a shaft about which a four-arm turnstile on rollers can turn—strong enough to support the weight of a person.",
+			"price": "$ 13,500",
+			"rating": "4.1"
+		},
+		{
+			"id": "8",
+			"img": "plants1.jpg",
+			"name": "Momo",
+			"color": "White",
+			"category": "Plants",
+			"description": "Plants are mainly multicellular organisms, predominantly photosynthetic eukaryotes of the kingdom Plantae. Historically, plants were treated as one of two kingdoms including all living things that were not animals, and all algae and fungi were treated as plants. However, all current definitions of Plantae exclude the fungi and some algae, as well as the prokaryotes (the archaea and bacteria). By one definition, plants form the clade Viridiplantae.",
+			"price": "$ 880",
+			"rating": "4.6"
+		}
+	],
+	"category": [
+		{
+			"key": "Lounge",
+			"value": "1",
+			"type": "category"
+		},
+		{
+			"key": "Table & Chairs",
+			"value": "2",
+			"type": "category"
+		},
+		{
+			"key": "Plants",
+			"value": "3",
+			"type": "category"
+		}
+	],
+	"colors": [
+		{
+			"key": "Red",
+			"value": "1",
+			"type": "color"
+		},
+		{
+			"key": "Green",
+			"value": "2",
+			"type": "color"
+		},
+		{
+			"key": "Gray",
+			"value": "3",
+			"type": "color"
+		},
+		{
+			"key": "White",
+			"value": "4",
+			"type": "color"
+		}
+	]
+}

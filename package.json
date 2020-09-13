@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce--deloitte",
+  "version": "1.0.0",
+  "description": "Rest Api for ecom site",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch products.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

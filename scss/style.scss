@@ -1,0 +1,12 @@
+
+@import "./partial-files/variables";
+@import "./partial-files/navbar";
+@import "./partial-files/landing-page";
+@import "./partial-files/sidebar";
+@import "./partial-files/card";
+@import "./partial-files/range";
+@import "./other-resolutions/side-bar-mob";
+
+body {
+    color: $app-color !important;
+}

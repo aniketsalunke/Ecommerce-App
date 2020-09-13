@@ -1,0 +1,127 @@
+.product-card {
+  --webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  max-width: 250px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  height: 310px;
+  margin: 10px;
+
+  &:hover {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transform: translateY(5px);
+  }
+}
+  
+.price {
+  color: grey;
+  font-size: 22px;
+}
+  
+.product-card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+  
+.product-card button:hover {
+  opacity: 0.7;
+}
+
+.product-card-name {
+  text-align: left;
+  margin-top: -30px;
+  background-color: white;
+  position: absolute;
+  padding: 10px 50px 0 5px;
+}
+
+.product-card-category {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 35px;
+}
+
+.outer-star {
+  position: relative;
+  font-size: 12px;
+
+  &::before {
+    content: '\f005 \f005 \f005 \f005 \f005';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+  }
+}
+
+.inner-star {
+  position: absolute ;
+  left: 0;
+  top: 0;
+  width: 0%;
+  overflow: hidden;
+
+  &::before {
+    content: '\f005 \f005 \f005 \f005 \f005';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    color: $gold-color;
+  }
+}
+
+.product-position {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.product-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-cart-icon {
+  font-size: 25px;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.buy-now-btn {
+  height: 40px;
+  background-color: $app-color;
+  margin-top: 5px;
+  margin: 5px 0 0 -16px;
+  padding: 7px 25px;
+  border-radius: 0;
+
+  &:focus {
+    background-color: $app-color;
+    outline: none;
+  }
+
+  &:hover {
+    background-color: $app-color;
+  }
+}
+
+.error-msg {
+  color: $red-color;
+}
+
+.modal-body{
+  display: flex;
+  justify-content: center;
+  top: 10px;
+}
+
+.btn-style {
+  padding: 2px 30px;
+}
