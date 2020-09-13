@@ -14,3 +14,4 @@ Here, user can,
 5. add product to cart by clickin on cart icon on product card
 6. clear cart
 7. Buy product
+8. User can get all the list data by clicking on home
